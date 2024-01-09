@@ -1,0 +1,12 @@
+#How to download an entry from UniProt using wget command? and How to get PubMed ids from the entry and get the ncbi link?
+
+
+#Go to UniProt, type the name of the protein, let's say 'ace2' and entry
+#Edit the entry 'https://www.uniprot.org/uniprotkb/Q59RR0/entry' with '.txt' --> https://www.uniprot.org/uniprotkb/Q59RR0.txt
+#copy paste the edited URL on terminal
+
+wget https://www.uniprot.org/uniprotkb/Q59RR0.txt  #once the file is downloaded
+grep -P -o 'PubMed:\d+' Q59RR0.txt #prints all the PubMed files with id
+grep -P -o 'PubMed:\d+' Q59RR0.txt | grep -P -o '\d+'  #prints only the ids of all PubMed
+grep -P -o 'PubMed:\d+' Q59RR0.txt | grep -P -o '\d+' | sed 's/^/http:\/\/www.ncbi.nlm.nih.gov\/pubmed\//'
+
