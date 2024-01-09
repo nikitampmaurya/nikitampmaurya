@@ -1,4 +1,4 @@
-#How to download an entry from UniProt using wget command? and How to get PubMed ids from the entry and get the ncbi link?
+#How to download an entry from UniProt using wget command? and How to get PubMed Ids from the entry and get the ncbi link?
 
 
 #Go to UniProt, type the name of the protein, let's say 'ace2' and entry
