@@ -1,5 +1,5 @@
-- 👋 Hi, I’m @nikitampmaurya
-- 👀 I’m interested in Python Programming
-- 🌱 I’m currently learning machine learning
-- 💞️ I’m looking to collaborate on omics data analysis and web tool development.
-- 📫 Reach out to me nikitampmaurya@gmail.com
+👋 Hi there, welcome to my GitHub
+I will be completing an MSc in Bioinformatics at the University of Liverpool this Sept 2025.
+Currently, I am looking for entry-level jobs such as Computational Biologist and Bioinformatician in the UK/Europe.
+On my GitHub, you will find data analysis projects using R, Python, and Linux commands. 
+📫 Reach out to me at: nikitampmaurya@gmail.com
